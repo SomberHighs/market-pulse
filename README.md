@@ -1,2 +1,14 @@
-# market-pulse
-market_pulse/ ├── data/               # Local SQLite database storage ├── src/ │   ├── scraper.py      # Extraction logic │   ├── processor.py    # Transformation logic (Pandas) │   └── database.py     # Loading logic (SQLAlchemy) ├── main.py             # Entry point └── requirements.txt
+market-pulse/
+├── .github/
+│   └── workflows/
+│       └── daily_scrape.yml
+├── data/
+│   └── .gitkeep
+├── src/
+│   ├── __init__.py
+│   ├── scraper.py
+│   ├── processor.py
+│   └── database.py
+├── main.py
+├── requirements.txt
+└── .gitignore
